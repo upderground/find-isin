@@ -1,8 +1,8 @@
 <form action="https://iss.moex.com/iss/securities.html" type="get">
-    <h4>Найти ISIN акции по тикеру</h4>
+    <h4 style="color:#888">Найти ISIN акции по тикеру</h4>
     <p>Введите тикер:</p>
 <input type="text" id="q" name="q" />
     <input type="hidden" id="group" name="group" value="stock_bonds" />
-    <input type="hidden" id="securities.columns" name="securities.columns" value="isin,emitent_title" />
+    <input type="hidden" id="securities.columns" name="securities.columns" value="secid,isin,emitent_title" />
     <input type="submit" value="Найти" />
 </form>
